@@ -3,7 +3,7 @@
 
 <!--Manifest-->
 
-  <project path="android" name="platform_manifest" remote="rr" />
+  <project path="android" name="fzkangga/Resurrection_platform_manifest" revision="pie" />
 
 <!--BUILD-->
 
@@ -74,11 +74,6 @@
 
   <project path="system/core" name="android_system_core" remote="rr" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="rr" />
-
-<!--Prebuilts-->
-
-  <project path="prebuilts/clang/host/darwin-x86" name="clang-host-darwin-x86" remote="rr" clone-depth="1"/>
-  <project path="prebuilts/clang/host/linux-x86" name="AOSiP/platform_prebuilts_clang_host_linux-x86" remote="github" revision="pie" clone-depth="1" />
 
 <!--Hardware-->
 
