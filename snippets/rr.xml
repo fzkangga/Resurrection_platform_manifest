@@ -67,7 +67,7 @@
 <!--Device-->
 
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="rr" />
-  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="rr" />
+  <project path="device/qcom/sepolicy-legacy" name="fzkangga/android_device_qcom_sepolicy-legacy" revision="lineage-16.0" />
   <project path="device/rr/sepolicy" name="device_rr_sepolicy" remote="rr" />
 
 <!--System-->
