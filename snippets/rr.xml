@@ -3,7 +3,7 @@
 
 <!--Manifest-->
 
-  <project path="android" name="fzkangga/Resurrection_platform_manifest" revision="pie" />
+  <project path="android" name="fzkangga/Resurrection_platform_manifest" revision="pie-security-release" />
 
 <!--BUILD-->
 
@@ -37,7 +37,7 @@
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="rr" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="rr" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="rr" />
-  <project path="packages/apps/Settings" name="Resurrection_packages_apps_Settings" remote="rr" />
+  <project path="packages/apps/Settings" name="fzkangga/Resurrection_packages_apps_Settings" revision="pie-security-release" />
   <project path="packages/apps/SmartNav" name="packages_apps_SmartNav" remote="rr" />
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet_Pie" remote="rr" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="rr" />
@@ -56,8 +56,8 @@
 
 <!--Frameworks-->
 
-  <project path="frameworks/av" name="frameworks_av" remote="rr" />
-  <project path="frameworks/base" name="fzkangga/Resurrection_android_frameworks_base" revision="pie" />
+  <project path="frameworks/av" name="fzkangga/Resurrection_frameworks_av" revision="pie-security-release" />
+  <project path="frameworks/base" name="fzkangga/Resurrection_android_frameworks_base" revision="pie-security-release" />
   <project path="frameworks/native" name="frameworks_native" remote="rr" />
   <project path="frameworks/opt/slimrecent" name="frameworks_opt_slimrecent" remote="rr" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="rr" />
