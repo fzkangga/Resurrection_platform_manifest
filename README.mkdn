@@ -99,7 +99,11 @@ Alright, so now we’re getting there. I have outlined the basics of what we’r
 
 ##### Initializing the RR repo and downloading the manifest
 
-      $  repo init -u https://github.com/ResurrectionRemix/platform_manifest.git -b pie
+      $  repo init -u https://github.com/fzkangga/Resurrection_platform_manifest.git -b pie
+
+##### Initializing a shallow clone the RR repo and downloading the manifest
+
+      $  repo init --depth=1 -u https://github.com/fzkangga/Resurrection_platform_manifest.git -b pie
 
 ##### Syncing the source
 [Hint: This might take a long time as the source is ~26GB]
