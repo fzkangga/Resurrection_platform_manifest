@@ -3,11 +3,11 @@
 
 <!--Manifest-->
 
-  <project path="android" name="fzkangga/Resurrection_platform_manifest" revision="pie-security-release" />
+  <project path="android" name="fzkangga/Resurrection_platform_manifest" revision="fzk-p" />
 
 <!--BUILD-->
 
-  <project path="build/make" name="fzkangga/Resurrection_android_build" revision="pie-tmp" >
+  <project path="build/make" name="fzkangga/Resurrection_android_build" revision="fzk-p" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -37,7 +37,7 @@
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="rr" />
   <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="rr" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="rr" />
-  <project path="packages/apps/Settings" name="fzkangga/Resurrection_packages_apps_Settings" revision="pie-security-release" />
+  <project path="packages/apps/Settings" name="fzkangga/Resurrection_packages_apps_Settings" revision="fzk-p" />
   <project path="packages/apps/SmartNav" name="packages_apps_SmartNav" remote="rr" />
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet_Pie" remote="rr" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="rr" />
@@ -56,9 +56,9 @@
 
 <!--Frameworks-->
 
-  <project path="frameworks/av" name="fzkangga/Resurrection_frameworks_av" revision="pie-security-release" />
-  <project path="frameworks/base" name="fzkangga/Resurrection_android_frameworks_base" revision="pie-release" />
-  <project path="frameworks/native" name="fzkangga/Resurrection_frameworks_native" revision="pie-security-release" />
+  <project path="frameworks/av" name="fzkangga/Resurrection_frameworks_av" revision="fzk-p" />
+  <project path="frameworks/base" name="fzkangga/Resurrection_android_frameworks_base" revision="fzk-p" />
+  <project path="frameworks/native" name="fzkangga/Resurrection_frameworks_native" revision="fzk-p" />
   <project path="frameworks/opt/slimrecent" name="frameworks_opt_slimrecent" remote="rr" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="rr" />
   <project path="frameworks/support" name="frameworks_support" remote="rr" />
