@@ -57,7 +57,7 @@
 <!--Frameworks-->
 
   <project path="frameworks/av" name="fzkangga/Resurrection_frameworks_av" revision="pie-security-release" />
-  <project path="frameworks/base" name="fzkangga/Resurrection_android_frameworks_base" revision="pie-security-release" />
+  <project path="frameworks/base" name="fzkangga/Resurrection_android_frameworks_base" revision="pie-release" />
   <project path="frameworks/native" name="fzkangga/Resurrection_frameworks_native" revision="pie-security-release" />
   <project path="frameworks/opt/slimrecent" name="frameworks_opt_slimrecent" remote="rr" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="rr" />
