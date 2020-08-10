@@ -16,10 +16,10 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="android_build_soong" remote="rr" >
+  <!--<project path="build/soong" name="android_build_soong" remote="rr" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
+  </project>-->
 
 <!--VENDOR-->
 
@@ -72,8 +72,8 @@
 
 <!--System-->
 
-  <project path="system/core" name="android_system_core" remote="rr" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="rr" />
+  <!--<project path="system/core" name="android_system_core" remote="rr" />-->
+  <!--<project path="system/sepolicy" name="android_system_sepolicy" remote="rr" />-->
 
 <!--Hardware-->
 
