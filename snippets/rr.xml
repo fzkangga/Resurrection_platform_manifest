@@ -62,7 +62,7 @@
   <project path="frameworks/opt/slimrecent" name="frameworks_opt_slimrecent" remote="rr" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="rr" />
   <project path="frameworks/support" name="frameworks_support" remote="rr" />
-  <project path="frameworks/support/lottie" name="android_frameworks_support_lottie" remote="rr" />
+  <project path="frameworks/support/lottie" name="fzkangga/android_frameworks_support_lottie" revision="pie" />
 
 <!--Device-->
 
