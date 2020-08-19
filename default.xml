@@ -23,7 +23,7 @@
 	   revision="nougat" />
 
   <!-- AOSP Projects -->
-  <project path="build" name="ResurrectionRemix/android_build" groups="pdk">
+  <project path="build" name="fzkangga/Resurrection_android_build" groups="pdk" revision="nougat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
