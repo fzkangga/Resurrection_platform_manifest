@@ -9,9 +9,9 @@
   <project path="external/google" name="android_external_google" remote="rr" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="fzkangga/Resurrection_frameworks_av" revision="nougat" />
-  <project path="frameworks/base" name="fzkangga/Resurrection_android_frameworks_base" revision="nougat" />
-  <project path="frameworks/native" name="fzkangga/Resurrection_frameworks_native" revision="nougat" />
+  <project path="frameworks/av" name="fzkangga/Resurrection_frameworks_av" revision="cm-14.1" />
+  <project path="frameworks/base" name="fzkangga/Resurrection_android_frameworks_base" revision="cm-14.1" />
+  <project path="frameworks/native" name="fzkangga/Resurrection_frameworks_native" revision="cm-14.1" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="rr" />
 
   <!-- Apps -->
@@ -28,7 +28,7 @@
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="rr" />
   <project path="packages/apps/ResurrectionOTA" name="packages_apps_ResurrectionOTA" remote="rr" />
   <project path="packages/apps/ResurrectionStats" name="packages_apps_ResurrectionStats" remote="rr" />
-  <project path="packages/apps/Settings" name="fzkangga/Resurrection_packages_apps_Settings" revision="nougat" />
+  <project path="packages/apps/Settings" name="fzkangga/Resurrection_packages_apps_Settings" revision="cm-14.1" />
   <project path="packages/apps/StorageManager" name="android_packages_apps_StorageManager" remote="rr" />
 
   <!-- Services -->
@@ -36,7 +36,7 @@
   <project path="packages/services/Telecomm" name="fzkangga/Resurrection_android_packages_services_Telecomm" revision="nougat" />
 
   <!-- System -->
-  <project path="system/core" name="fzkangga/ResurrectionRemix_system_core" revision="nougat" />
+  <project path="system/core" name="fzkangga/Resurrection_system_core" revision="cm-14.1" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="rr" />
 
   <!-- Vendor -->
