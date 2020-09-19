@@ -40,7 +40,7 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="rr" />
 
   <!-- Vendor -->
-  <project path="vendor/cm" name="android_vendor_resurrection" remote="rr" />
+  <project path="vendor/cm" name="fzkangga/android_vendor_resurrection" revision="nougat" />
   <project path="vendor/cmsdk" name="cm_platform_sdk" remote="rr" />
 
   <!-- OmniRom additions -->
